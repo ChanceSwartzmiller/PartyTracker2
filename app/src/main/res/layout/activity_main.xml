@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PartyTracker"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <EditText
+        android:id="@+id/counterNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Counter Name"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edittext_background" />
+
+    <EditText
+        android:id="@+id/counterValueInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Starting Value"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittext_background" />
+
+    <Button
+        android:id="@+id/startCounterButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Start / Resume Session"
+        android:backgroundTint="#2196F3" />
+</LinearLayout>
